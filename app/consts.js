@@ -1,0 +1,1 @@
+export const apiHostName = "https://idev2580dev.work/t-todolist/api"
