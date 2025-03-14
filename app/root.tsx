@@ -21,6 +21,10 @@ export const links: Route.LinksFunction = () => [
     rel: "stylesheet",
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
+  {
+    rel:"stylesheet",
+    href:"https://fonts.googleapis.com/icon?family=Material+Icons"
+  }
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -33,7 +37,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+        <header>
+          <h1>T-Todolist</h1>
+          <nav></nav>
+        </header>
         {children}
+        <footer>
+          <p>Made by idev2580</p>
+          <a href="https://github.com/idev2580">https://github.com/idev2580</a>
+        </footer>
         <ScrollRestoration />
         <Scripts />
       </body>

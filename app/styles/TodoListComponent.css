@@ -1,0 +1,22 @@
+.t-todolist-todoitems{
+    margin : 1rem;
+}
+.t-todolist-todoitems li{
+    display:flex;
+    flex-direction:row;
+    padding-top : 0.25rem;
+    padding-bottom: 0.25rem;
+}
+.t-todolist-todoitems li input{
+    flex:1;
+}
+.t-todolist-todoitem-checkbtn{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+.t-todolist-todoitem-checkbtn span{
+    margin: 0;
+    padding: 0;
+    line-height:1.0;
+}

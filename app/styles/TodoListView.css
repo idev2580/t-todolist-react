@@ -1,0 +1,21 @@
+.todolist-view{
+    display:flex;
+    flex-direction:row;
+    flex:1;
+}
+.todolist-view aside{
+    min-width:12rem;
+    display:flex;
+    flex-direction:column;
+    border-right:1px solid black;
+}
+.todolist-view-aside-btn{
+    padding:0.8rem;
+    margin:0.4rem;
+    border-radius:0.6rem;
+}
+.todolist-view main{
+    display:flex;
+    flex-direction:row;
+    justify-items:stretch;
+}
